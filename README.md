@@ -11,15 +11,15 @@ Data Science Institute - Cohort 4 - Team 3 Project
 ## Dataset
 - [Disease Prediction Using Machine Learning](https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning/data)
 
-### Research Question
+## Research Question
+- Which symptom features are the most significant predictors of a disease? 
 
-### Business Case
+## Business Case
+- What is the question our analysis is trying to answer?
+TODO:
+
+- Who is the intended audience for our data analysis?
+TODO:
 
 ## Reference
 - [Canadian Chronic Disease Surveillance System (CCDSS)](https://health-infobase.canada.ca/ccdss/data-tool/)
-
-
-
-
-
-
