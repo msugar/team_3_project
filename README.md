@@ -3,7 +3,7 @@ Data Science Institute - Cohort 4 - Team 3 Project
 
 ## Members
 - (Amir) Hossein Baghdadi 
-- Joao Tiago Foa Binsztajn
+- Tiago Foa
 - Lisa Feeney
 - Marcio Sugar
 - Serhii Bohoslavets
