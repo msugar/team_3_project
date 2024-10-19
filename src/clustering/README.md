@@ -8,7 +8,6 @@ This project loads symptom occurrence data from a disease dataset, computes the 
 
 - **Training.csv**: CSV file containing training data with symptom columns and a `prognosis` target column.
 - **Testing.csv**: CSV file containing testing data with similar structure as the training file.
-- **symptom_clustering.py**: Python script that loads the dataset, processes the data, performs K-means clustering, and visualizes the results.
 
 ## Setup
 Adjust num_kmeans to match the number of unique prognoses in your dataset for improved accuracy.
