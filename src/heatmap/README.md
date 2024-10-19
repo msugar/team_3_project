@@ -1,20 +1,21 @@
-# Symptom Clustering with K-Means
+# Symptom Heatmap Visualization
 
 ## Overview
 
-This project loads symptom occurrence data from a disease dataset, computes the total occurrence of each symptom across all records, and applies K-means clustering to group similar symptoms based on their occurrence counts. The data is then visualized with a scatter plot, where each symptom is colored based on its cluster. The aim is to provide insights into symptom patterns and clustering tendencies based on their frequency.
+This project loads symptom occurrence data from a disease dataset and creates a heatmap to visualize the correlation between symptoms. The heatmap provides a graphical representation of how symptoms relate to one another based on their occurrence counts, helping to identify potential patterns and associations among symptoms.
 
 ## Files
 
 - **Training.csv**: CSV file containing training data with symptom columns and a `prognosis` target column.
-- **Testing.csv**: CSV file containing testing data with similar structure as the training file.
+- **Testing.csv**: CSV file containing testing data with a similar structure as the training file.
 
 ## Setup
-Adjust num_kmeans to match the number of unique prognoses in your dataset for improved accuracy.
+
+Make sure to have the necessary libraries installed for generating the heatmap.
 
 ## Requirements
 
 Before running the script, ensure you have the following Python libraries installed:
 
 ```bash
-pip install pandas matplotlib scikit-learn
+pip install pandas matplotlib seaborn
