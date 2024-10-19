@@ -115,4 +115,57 @@ all_importances = pd.DataFrame(
 )
 all_importances.to_csv(output_dir / 'symptom_importances_by_prognosis.csv')
 
+# %%
+# Plot sum of feature importances across all models (features on axis-x)
+
+# Sum up feature importances across all models
+feature_importance_sum = pd.DataFrame(0, index=X_train.columns, columns=['Importance'])
+
+for model in models:
+    importance = model.feature_importances_
+    feature_importance_sum['Importance'] += importance
+
+# Sort the summed importances in descending order
+feature_importance_sum = feature_importance_sum.sort_values('Importance', ascending=False)
+
+# Create a bar plot
+plt.figure(figsize=(12, 8))
+plt.bar(feature_importance_sum.index, feature_importance_sum['Importance'])
+plt.title('Sum of Feature Importances Across All One-vs-All Models')
+plt.xlabel('Features')
+plt.ylabel('Summed Importance')
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.show()
+
+# Optionally, save the plot
+plt.savefig(output_dir / 'feature_importance_sum.png')
+
+# Print the top N important features
+N = 10  # Change this to show more or fewer features
+print(f"Top {N} important features:")
+print(feature_importance_sum.head(N))
+
+# %%
+# Plot sum of feature importances across all models (features on axis-y)
+
+# Sort the summed importances in descending order
+feature_importance_sum = feature_importance_sum.sort_values('Importance', ascending=True)
+
+# Create a horizontal bar plot
+plt.figure(figsize=(12, 20))  # Adjust the figure size as needed
+plt.barh(feature_importance_sum.index, feature_importance_sum['Importance'])
+plt.title('Sum of Feature Importances Across All One-vs-All Models')
+plt.xlabel('Summed Importance')
+plt.ylabel('Features')
+plt.tight_layout()
+plt.show()
+
+# Optionally, save the plot
+plt.savefig(output_dir / 'feature_importance_sum_horizontal.png', bbox_inches='tight')
+
+# Print the top N important features
+N = 10  # Change this to show more or fewer features
+print(f"Top {N} important features:")
+print(feature_importance_sum.tail(N)[::-1])  # Reverse to show highest importance first
 

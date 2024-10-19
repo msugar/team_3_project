@@ -5,6 +5,8 @@ import xgboost as xgb
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import LabelEncoder
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # %% Check XGBoost version
 def versiontuple(v):
@@ -65,14 +67,24 @@ print(classification_report(y_test_encoded, y_pred, target_names=label_encoder.c
 # %%
 # Feature importance analysis
 feature_importances = xgb_model.feature_importances_
-important_features_df = pd.DataFrame({
+feature_importance_df = pd.DataFrame({
     'Feature': X_train.columns,
     'Importance': feature_importances
 }).sort_values(by='Importance', ascending=False)
 
 print("Top 10 Important Features Overall:")
-print(important_features_df.head(10))
+print(feature_importance_df.head(10))
 print()
 print("Top 10 Unimportant Features Overall:")
-print(important_features_df.tail(10))
+print(feature_importance_df.tail(10))
 
+# %%
+# Plot Features per importance
+plt.figure(figsize=(20,20))
+sns.barplot(x='Importance', y= 'Feature', data=feature_importance_df)
+plt.title('All Feature Importances')
+plt.xlabel('Importance')
+plt.ylabel('Feature')
+plt.grid()
+plt.show()
+# %%
