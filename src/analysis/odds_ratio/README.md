@@ -1,4 +1,4 @@
-# Symptom Heatmap Visualization
+# Odds Ratio Visualization
 
 ## Overview
 
