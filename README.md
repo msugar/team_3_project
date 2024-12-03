@@ -1,6 +1,8 @@
 # Team 3 Project - Disease Prediction Using Machine Learning
 Data Science Institute - Cohort 4 - Team 3 Project 
 
+![Prognoses grouped by Medical Speciality - Sunburst Plot](img/sunburst.png)
+
 ## Members
 - (Amir) Hossein Baghdadi 
 - Joao Tiago Foa Binsztajn (Tiago Foa)
