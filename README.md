@@ -21,5 +21,8 @@ TODO:
 - Who is the intended audience for our data analysis?
 TODO:
 
+## Project Track
+- [Backlog - UofT-DSI | Team Project | Cohort 4 - Team 3](https://github.com/users/msugar/projects/2) has the tasks assigned to each team member, and their completion status.
+
 ## Reference
 - [Canadian Chronic Disease Surveillance System (CCDSS)](https://health-infobase.canada.ca/ccdss/data-tool/)
