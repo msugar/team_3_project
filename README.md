@@ -5,7 +5,7 @@ Data Science Institute - Cohort 4 - Team 3 Project
 
 ## Members
 - (Amir) Hossein Baghdadi 
-- Joao Tiago Foa Binsztajn (Tiago Foa)
+- Joao Tiago Foa Binsztajn (Tiago Foa) - Validation Section: [Link to Video](https://drive.google.com/file/d/1HV9KjkOa2_pDaY6h6inP8pEsgydv2IPp/view?usp=sharing) | [Link to Jupyter Notebook](https://github.com/msugar/disease_prediction_machine_learning/blob/main/src/validation.ipynb)
 - Lisa Feeney
 - Marcio Sugar
 - Serhii Bohoslavets
@@ -26,5 +26,14 @@ TODO:
 ## Project Track
 - [Backlog - UofT-DSI | Team Project | Cohort 4 - Team 3](https://github.com/users/msugar/projects/2) has the tasks assigned to each team member, and their completion status.
 
+## Exporatory Data Analysis
+- [Link to Jupyter Notebook](https://github.com/msugar/disease_prediction_machine_learning/blob/main/src/01_eda.ipynb)
+
+## Pipeline
+- [Link to Jupyter Notebook](https://github.com/msugar/disease_prediction_machine_learning/blob/main/src/pipeline.ipynb)
+
+## Validation
+- [Link to Jupyter Notebook](https://github.com/msugar/disease_prediction_machine_learning/blob/main/src/pipeline.ipynb)
+
 ## Reference
-- [Canadian Chronic Disease Surveillance System (CCDSS)](https://health-infobase.canada.ca/ccdss/data-tool/)
+- [Canadian Chronic Disease Surveillance System (CCDSS)](https://github.com/msugar/disease_prediction_machine_learning/blob/main/src/validation.ipynb)
