@@ -6,7 +6,7 @@ Data Science Institute - Cohort 4 - Team 3 Project
 ## Members
 - (Amir) Hossein Baghdadi 
 - Joao Tiago Foa Binsztajn (Tiago Foa) - Validation Section: [Link to Video](https://drive.google.com/file/d/1HV9KjkOa2_pDaY6h6inP8pEsgydv2IPp/view?usp=sharing) | [Link to Jupyter Notebook](https://github.com/msugar/disease_prediction_machine_learning/blob/main/src/validation.ipynb)
-- Lisa Feeney
+- Lisa Feeney - Business Understanding Section: https://github.com/user-attachments/assets/a820e3d2-3d70-4db4-9b63-ca2a9aefebea
 - Marcio Sugar
 - Serhii Bohoslavets
 
